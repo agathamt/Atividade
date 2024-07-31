@@ -1,0 +1,17 @@
+Data:30/07/2024
+Nome:agatha martins trento
+Atividade 1: sequencia lógica de como trocar uma lâmpada 
+
+1. Vou no mercado e compro uma lâmpada nova.
+2. Volto para casa com a lâmpada nova.
+3. Pego uma escada. 
+4. Vou para onde está a lâmpada queimada. 
+5. Coloco a escada. 
+6. Subo as escadas.
+7. Tiro a lâmpada queimada. 
+8. Coloco a lâmpada nova. 
+9. Desço da escada. 
+10. Fecho a escada. 
+11. Guardo a escada. 
+12. Ligo a energia. 
+13. Uso a lâmpada nova.
