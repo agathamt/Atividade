@@ -1,0 +1,15 @@
+#include <stdio.h>
+#define peso_A 2
+#define peso_B 3
+#define peso_C 5
+
+int main() {
+ 
+ double A =0.0, B =0.0, C =0.0;
+ double MEDIA = 0.0;
+ scanf("%lf\n%lf\n%lf", &A,&B,&C);
+ MEDIA = ((A*peso_A)+(B*peso_B)+(C*peso_C))/(peso_A+peso_B+peso_C);
+ printf("MEDIA = %.1lf\n", MEDIA);
+ 
+    return 0;
+}
