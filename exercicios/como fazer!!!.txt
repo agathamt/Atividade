@@ -1,0 +1,30 @@
+SOMA 1:
+#include<stdio.h>
+
+int SomaInteira(int a, int b, int c);
+
+{
+  int resultado = 0;
+  
+   resultado = a+b+c;
+
+   return(resultado);
+}
+
+
+SOMA 2:
+#include<stdio.h>
+
+int somaInteiro(int a, int b, int c);
+
+int main()
+{ //var
+  int x=0, y=0, z=0, r=0;
+
+  scanf("%d\n%d\n%d",&x,&y,&z);
+
+  r= SomaImteiro(x,y,z)
+
+  printf("a soma eh %,r);
+  return(0);
+}

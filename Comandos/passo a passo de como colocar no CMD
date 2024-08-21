@@ -1,0 +1,15 @@
+PASSO A PASSO DE COMO COLOCAR O DIRETÓRIO:
+
+1º:escreva cd aluno
+2º:escreva cd atividade
+3º:escreva cd exercicios
+
+    E PRONTO!!
+
+COMO CLONAR O DIRETÓRIO:
+
+1º:ESCREVA: gcc HelloWorld.c -o HelloWorld.
+2º:DE ENTER.
+3º:ESCREVA: HelloWorld.exe
+
+PRONTOOOO!!!!
