@@ -1,0 +1,31 @@
+FUNDAMENTOS DE BANCO DE DADOS:
+
+Atividade:
+Q1:com suas palavras Explique o que é um banco de dados.
+Um banco de dados é um sistema organizado para armazenar, gerenciar e manipular grandes volumes de dados de forma estruturada e eficiente.
+Ele permite que dados sejam armazenados de maneira a serem facilmente acessados
+
+Q2:Diferencie DADO de imformação
+Dado:
+
+É a representação bruta de fatos, números ou símbolos que, por si só, não têm significado.
+Pode ser considerado como a matéria-prima para a obtenção de informações.
+
+Informação:
+
+É o dado que foi processado, organizado e contextualizado de forma que adquira significado e relevância.
+
+
+Q3:Descreva a função de um SGBD e site vantagens e desvantagens conforme visto em sala
+Um Sistema de Gerenciamento de Banco de Dados (SGBD) é um software que facilita a criação, gerenciamento e manipulação de bancos de dados. 
+Ele atua como uma interface entre os usuários e o banco de dados, permitindo que os dados sejam armazenados, recuperados, modificados e organizados de maneira eficiente e segura.
+
+Q4:O que é banco de dados relacional e como ele funciona. Evidência a diferença desse modelo em relação dos outros modelos existentes.
+Um banco de dados relacional é um modelo de banco de dados que armazena os dados em tabelas inter-relacionadas, onde cada tabela representa uma entidade ou objeto do mundo real
+
+Q5:Com base no modelo de banco de dados relacional forneça um exemplo de duas tabelas com suas tuplas e atributos e o relacionamento existente entre elas.
+
+Os dados são organizados em tabelas, cada uma representando uma entidade ou objeto (ex: Clientes, Produtos, Pedidos). Cada tabela é composta por colunas e linhas:
+
+Colunas: representam os atributos da entidade (ex: Nome, Email, Preço).
+Linhas: são os registros ou instâncias dessas entidades (ex: dados específicos de um cliente ou produto).
