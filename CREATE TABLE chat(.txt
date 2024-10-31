@@ -1,0 +1,21 @@
+CREATE TABLE chat(
+	id_chat serial PRIMARY KEY,
+	nome varchar(20),
+	msg varchar(200)
+);
+
+SELECT * FROM chat ORDER BY id_chat;
+
+INSERT INTO chat (nome,msg) VALUES('Agatha', 'olá galera');
+INSERT INTO chat (nome,msg) VALUES('Vagner', 'oi me chamo vagner');
+INSERT INTO chat (nome,msg) VALUES('gabriel', 'oi me chamo gabriel');
+INSERT INTO chat (nome,msg) VALUES('domini', 'oi me chamo domini');
+INSERT INTO chat (nome,msg) VALUES('larissa', 'oi me chamo larissa');
+INSERT INTO chat (nome,msg) VALUES('maria', 'oi me chamo maria');
+INSERT INTO chat (nome,msg) VALUES('Arthur B', 'oi me chamo Arthur B');
+INSERT INTO chat (nome,msg) VALUES('Arthur S', 'oi me chamo Arthur S');
+INSERT INTO chat (nome,msg) VALUES('Evilyn', 'oi me chamo Evilyn');
+INSERT INTO chat (nome,msg) VALUES('Willian', 'oi me chamo Willian');
+INSERT INTO chat (nome,msg) VALUES('Gustavo', 'oi me chamo Gustavo');
+
+UPDATE chat SET nome = 'Agatha', msg = 'teste';
