@@ -1,0 +1,51 @@
+CREATE TABLE cliente(
+	id_cliente sereal PRIMARY  
+	Nome varchar(20),
+	Cpf varchar(20),
+	DataNascimento date(8),
+	Estado varchar(20),
+	Cidade varchar(20),
+	Rua varchar(20),
+	Numero varchar(11),
+	Cep varchar(20)
+);
+SELECT * FROM
+
+CREATE TABLE pedido(
+	id_pedido sereal
+	DataCriacao date
+	Status varchar(20)
+	Cliente_IDFK varchar(20)
+
+);
+
+CREATE TABLE itempedido(
+	id_itempedido sereal PRIMARY BY,
+	Quantidade_compra varchar(20)
+	valortotal varchar(0)
+	pedido_IDFK varchar(0)
+	produto_IDFK varchar(0)
+	
+)
+
+CREATE TABLE produto(
+	id_produto sereal
+	nome varchar(20)
+	descricao varchar(200)
+	precounitario varchar(20)
+	quantidadeestoque varchar(20)
+	fornecedor_IDFK varchar(20)
+	
+),
+
+CREATE TABLE fornecedor(
+	id_fornecerdor sereal
+	nome varchar(20)
+	cnpj varchar(20)
+	telefone varchar(11)
+	rua varchar(20)
+	numero varchar(20)
+	estado varchar(20)
+	cep varchar(11)
+	cidade varchar(20)
+),
